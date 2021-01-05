@@ -47,7 +47,7 @@ function App()
       		<Main>
 				{error && <div>Failed to load Star Wars data :(</div>}
 
-				{!movieData && <div>{selectLoadingMessage()}</div>}
+				{(!movieData && !error) && <div>{selectLoadingMessage()}</div>}
 
 				{(!error && movieData && !movieSelected) && (
 					<div style={{width: '90%', margin: '2rem 0'}}>
