@@ -1,0 +1,32 @@
+.Movie-preview {
+    grid-column: span 1 / span 1;
+    background-color: rgb(28, 27, 36);
+    border-radius: 0.5em;
+    text-align: center;
+}
+
+.movie-title {
+    text-align: center;
+    font-style: italic;
+}
+
+.movie-title span {
+    font-size: 1rem;
+    color: rgb(199, 199, 199);
+    font-style: normal;
+}
+
+.browse-btn {
+    color: rgb(243, 243, 243);
+    background: none;
+    border: none;
+    margin-bottom: 1.5rem;
+    outline: 0.1rem solid #FBE618;
+    border-radius: 1rem;
+    padding: 0.4rem 0.8rem;
+    cursor: pointer;
+}
+
+.browse-btn:hover {
+    opacity: 0.6;
+}

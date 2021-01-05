@@ -1,0 +1,43 @@
+.App-header {
+    height: 100px;
+    display: flex;
+    background-color: black;
+    padding: 0.2rem 1rem;
+    box-shadow: 1px 1px 1px 1px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.App-logo {
+    height: 100px;
+}
+
+.App-header h1 {
+    font-size: 1.4rem;
+    margin: 0 0.5rem;
+}
+
+@media (max-width: 500px) {
+    .App-logo {
+        height: 50px;
+    }
+
+    .App-header h1 {
+        font-size: 1rem;
+    }
+}
+
+.back-btn {
+    color: rgb(243, 243, 243);
+    background: none;
+    border: none;
+    outline: 0.1rem solid #FBE618;
+    border-radius: 1rem;
+    padding: 0.4rem 0.8rem;
+    cursor: pointer;
+}
+
+.back-btn:hover {
+    opacity: 0.6;
+}

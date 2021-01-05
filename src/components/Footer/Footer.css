@@ -1,0 +1,10 @@
+.Footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(29, 29, 29);
+    min-height: 70px;
+    color: azure;
+    font-size: 0.75rem;
+}

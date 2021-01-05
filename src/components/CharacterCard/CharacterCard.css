@@ -1,0 +1,69 @@
+.Character-card {
+    grid-column: span 1 / span 1;
+    background-color: rgb(28, 27, 36);
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Character-card h2 {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.learn-btn {
+    color: rgb(243, 243, 243);
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0.5rem 0;
+}
+
+.learn-btn img {
+    width: 20px;
+}
+
+.learn-btn:hover {
+    opacity: 0.6;
+}
+
+.learn-btn:focus {
+    outline: none;
+    border: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.upside-down {
+    transform: rotate(180deg);
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-slider {
+    height: 140px;
+    animation: slide-down 100ms ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes slide-down {
+    from {
+        display: none;
+        height: 0px;
+    }
+
+    to {
+        display: flex;
+        height: 140px;
+    }
+}
