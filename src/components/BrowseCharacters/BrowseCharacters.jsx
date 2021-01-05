@@ -28,7 +28,7 @@ export default function BrowseCharacters({movie})
     useEffect(() =>
     {
         fetchCharacters()
-    }, [])
+    })
 
     if (!characters) return <div className="flex-center">{selectLoadingMessage()}</div>
 
